@@ -10,7 +10,7 @@ title: Ryan Ke
 description: > # this means to ignore newlines until "baseurl:"
   A minimalistic theme for Jekyll, based on hack.css
 repository: https://github.com/wemake-services/jekyll-theme-hackcss
-baseurl: /jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: https://ryanziuke.github.io  # the base hostname & protocol for your site
 
 # Build settings
@@ -28,8 +28,10 @@ your_name: Ryan Ke
 email: ryanziuke@gmail.com
 
 navigation:
-  - text: Home
+  - text: home
     url: /
+  - projects: projects
+    url: /projects
   - text: Docs
     url: /docs
   - text: Examples
