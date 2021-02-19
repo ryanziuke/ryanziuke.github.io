@@ -9,21 +9,6 @@
           <a href="https://twitter.com/ryanziuke" class="black" style="border-bottom: 0px;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           <span style="float: right; width: 50%; text-align: right;">design based on <a href="https://github.com/wemake-services/jekyll-theme-hackcss" class="black" style="border-bottom: 0px;">hackcss</a></span>
         </p>
-
-        <div class="contact-list">
-          <p>
-            {{ site.your_name }},
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </p>
-
-          {% for social in site.social %}
-            {% assign template = social.service|prepend:"icon-"|append:".html" %}
-            <span class="t-hackcss-social">
-              <i class="t-hackcss-icon">{% include {{ template }} %}</i>
-              <a href="{{ social.link }}">{{ social.username }}</a>
-            </span>
-          {% endfor %}
-        </div>
     </div>
 
     <script>
@@ -47,6 +32,7 @@
       }
     </script>
 
+    <!--
     <div class="cell -5of12">
       <div class="contact-list">
         <p>
@@ -64,7 +50,7 @@
       </div>
     </div>
 
-    <!--<div id="footer-spacer" class="cell -1of12"></div>
+    <div id="footer-spacer" class="cell -1of12"></div>
 
     <div class="cell -6of12">
       <p>{{ site.description }}</p>

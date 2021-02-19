@@ -8,16 +8,6 @@
     padding-right: $spacing-unit;
   }
 
-  @at-root .hack &-navigation-heading {
-    padding-top: 20px;
-  }
-
-  // footer.html
-
-  @at-root body &-footer {
-    padding-bottom: $spacing-unit;
-  }
-
   &-social {
     display: inline-block;
   }
@@ -43,11 +33,23 @@
     }
   }
 
-  // examples.html
-
-  &-media {
-    margin-bottom: 1.25rem;
+  &-pop:hover {
+    color: white !important;
+    cursor: pointer;
+    background-color: #ff2e88;
   }
+
+  &-big-title {
+    margin-top:2%;
+  }
+
+  @media screen and (min-width:320px) and (max-width:640px) {
+    &-big-title {
+      margin-top: 25%;
+    }
+  }
+
+  // examples.html
 
   &-media-shift {
     max-width: $image-size;
