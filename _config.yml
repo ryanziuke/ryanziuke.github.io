@@ -32,8 +32,8 @@ navigation:
     url: /
   - projects: projects
     url: /projects
-  - text: Docs
-    url: /docs
+  - text: photos
+    url: /photos
 
 projects:
   - name: git-secret
@@ -51,13 +51,13 @@ projects:
     description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
     link: https://github.com/sobolevn/django-split-settings
 
-social:
-  - service: github
-    username: ryanziuke
-    link: https://github.com/ryanziuke
-  - service: twitter
-    username: ryanziuke
-    link: https://twitter.com/ryanziuke
+#social:
+#  - service: github
+#    username: ryanziuke
+#    link: https://github.com/ryanziuke
+#  - service: twitter
+#    username: ryanziuke
+#    link: https://twitter.com/ryanziuke
 
 # Plugins
 gems:
