@@ -30,7 +30,7 @@ email: ryanziuke@gmail.com
 navigation:
   - text: home
     url: /
-  - projects: projects
+  - text: projects
     url: /projects
   - text: photos
     url: /photos
