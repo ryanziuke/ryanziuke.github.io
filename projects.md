@@ -10,3 +10,5 @@ permalink: projects
 <a href="https://dl.acm.org/citation.cfm?id=3293835">Integration of Computational Thinking</a>: a teacher-empowered program that promotes Computational activities into current instructional practices across public schools.<br/>
 
 <a href="/">Sleight of Hand</a>: an instructional website for those interested in cardistry.<br/>
+
+<a href="/">Homer</a>: a website to maps out breweries in the Charlotte area.<br/>
